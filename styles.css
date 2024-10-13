@@ -1,0 +1,114 @@
+/* Genel Stil */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Bej Renk */
+    color: #333;
+}
+
+
+header {
+    background-color: #556b2f; /* Kapalı Yeşil Renk */
+    padding: 20px;
+}
+.profile-photo {
+    width: 100px; /* Genişlik */
+    height: 100px; /* Yükseklik */
+    border-radius: 50%; /* Yuvarlak hale getirir */
+    object-fit: cover; /* Resmi uygun bir şekilde kaplar */
+    border: 2px solid #ccc; /* İsteğe bağlı sınır rengi */
+}
+nav ul {
+    display: flex;
+    align-items: center; /* Dikey ortalama */
+    list-style: none; /* Madde işaretlerini kaldır */
+    padding: 0; /* Varsayılan iç boşluğu kaldır */
+}
+
+.profile-photo {
+    margin-right: 10px; /* Resim ile menü elemanları arasında boşluk */
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.cta {
+    background-color: #9acd32; /* Limon Yeşili */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a.cta:hover {
+    background-color: #7cfc00; /* Daha parlak bir yeşil */
+}
+
+.section {
+    padding: 50px 100px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.project, .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.project img, .skill img {
+    width: 150px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.project-info {
+    max-width: 600px;
+}
+
+.project-info h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.project-info p {
+    margin: 10px 0;
+}
+
+.project-info a.cta {
+    background-color: #9acd32; /* Limon Yeşili */
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-info a.cta:hover {
+    background-color: #7cfc00;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #556b2f;
+    color: white;
+}
+.about-content {
+    display: flex; /* Flexbox kullanarak yan yana hizalama */
+    align-items: center; /* Dikey olarak ortalama */
+}
+
+.about-content img {
+    margin-right: 20px; /* Resim ile yazı arasına boşluk */
+}
